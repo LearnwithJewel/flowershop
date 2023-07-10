@@ -142,9 +142,9 @@ main {
     text-align: center;
     font-family: Lato;
     font-size: 40px;
-    font-style: normal;
+    
     font-weight: 800;
-    line-height: normal;
+    
 }
 
 .insta-description {
@@ -165,12 +165,25 @@ main {
     text-align: center;
     margin-top: 30px;
     padding-top: 30px;
+   
 }
 
 .insta-card {
     gap: 10px;
     padding-left: 240px;
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     padding-right: 240px;
 }
+
+.insta-description {
+    color: rgba(39, 39, 39, 0.60);
+  
+    font-family: Lato;
+    font-size: 18px;
+   
+    font-weight: 400;
+   
+    
+}
+
