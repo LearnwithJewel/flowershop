@@ -1,6 +1,6 @@
 .banner {
     display: flex;
-   
+
     height: 850px;
     background: rgba(229, 84, 115, 0.10)
 }
@@ -69,7 +69,7 @@ main {
 .content {
     display: flex;
     padding-left: 240px;
-   
+
     border-radius: 8px;
     margin-top: 10px;
     margin-bottom: 30px;
@@ -110,7 +110,7 @@ main {
     height: 420px;
     padding-right: 400px;
     padding-top: 100px;
-    
+
 }
 
 .content-info {
@@ -142,9 +142,9 @@ main {
     text-align: center;
     font-family: Lato;
     font-size: 40px;
-    
+
     font-weight: 800;
-    
+
 }
 
 .insta-description {
@@ -161,12 +161,12 @@ main {
 
     background: #FFF;
     width: 1920px;
-    
+
     text-align: center;
     margin-top: 30px;
     padding-top: 30px;
     margin-bottom: 30px;
-   
+
 }
 
 .insta-card {
@@ -179,19 +179,128 @@ main {
 
 .insta-description {
     color: rgba(39, 39, 39, 0.60);
-  
+
     font-family: Lato;
     font-size: 18px;
-   
+
     font-weight: 400;
-   
-    
-}
-form{
-    height: 55px;
-    width: 600px;
-    background-color: aqua;
-    text-align: center;
-    background-image: url("");
+
+
 }
 
+form {
+
+
+    margin-left: 240px;
+    background-image: url("./Rectangle\ 9.png");
+    width: 1440px;
+    height: 449px;
+
+    margin-right: 240px;
+    height: 449px;
+    justify-content: center;
+    margin-top: 128Px;
+    margin-bottom: 128px;
+}
+
+.search-box {
+    justify-content: center;
+
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    margin-left: 287px;
+    font-size: 16px;
+}
+
+.form-title {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    padding-top: 122px;
+
+    font-weight: 800;
+
+}
+
+.form-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.btn-submit {
+    width: 150px;
+    height: 64px;
+    border-radius: 8px;
+    background: #E55473;
+    font-size: 28px;
+    color: #FFF;
+}
+
+footer {
+    width: 1922px;
+    height: 449px;
+    background: #111010;
+}
+
+.footer-tittle {
+    color: #E55473;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-top: 128px;
+
+}
+.footer-description{
+    color: rgba(255, 255, 255, 0.90);
+justify-content: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; 
+
+}
+
+
+
+span{
+    color: #FFF;
+}
+.footer-section{
+    text-align: center;
+}
+.copywrite{
+    color: rgba(255, 255, 255, 0.40);
+text-align: center;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal; 
+}
+
+
+
+.feacher{
+    border-radius: 300px 300px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
+width: 464px;
+height: 538px; 
+display: flex;
+}
+.feacher-img{
+    width: 310px;
+height: 428px; 
+margin-top: 110px;
+margin-left: 76px;
+
+}
