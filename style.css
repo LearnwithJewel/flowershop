@@ -291,93 +291,35 @@ span {
     line-height: normal;
 }
 
-.gallary1 {
+.feature-item {
+    display: flex;
+    margin: 0px 240px;
+    gap: 25px;
+}
 
+.pink-flower {
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
-    width: 464px;
-    height: 471px;
-    margin-top: 110px;
-    padding-bottom: 10px;
-
-
-
+    padding: 110px 75px 0px 75px;
 
 }
 
-.gallary2 {
-    width: 370px;
-    height: 471px;
+.mixed-flower {
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
-    margin-top: 110px;
-    padding-bottom: 40px;
-
+    padding: 120px 50px 50px 50px;
 }
 
-.gallary3 {
-    width: 314px;
-    height: 480px;
+.yellow-flower {
+    padding: 70px 75px 0px 75px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
-    margin-top: 110px;
-
-
-
 }
-
-.featured-n {
-    display: flex;
-    justify-content: space-between;
+.item-name{
     color: #272727;
     text-align: center;
-    font-family: Lato;
     font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
+    font-weight: 700px;
     line-height: 35px;
     text-decoration-line: underline;
-    margin-left: 380px;
-    margin-right:380px ;
-}
-
-
-
-
-.img-gl {
-    display:inline-flex;
-    justify-content: space-around;
-    padding-left: 240px;
-    padding-right: 240px;
-}
-
-.feacher {
-
-    background-color: #FFF;
-
-}
-
-.img-gl {
-    margin-bottom: 40px;
-    gap: 24px;
-}
-
-.featured-t {
-    color: #272727;
-    text-align: center;
-    font-family: Lato;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-}
-
-.featured-d {
-    color: rgba(39, 39, 39, 0.60);
-    text-align: center;
-    font-family: Lato;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
 }
