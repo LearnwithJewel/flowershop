@@ -1,6 +1,6 @@
 .banner {
     display: flex;
-    width: 1920px;
+   
     height: 850px;
     background: rgba(229, 84, 115, 0.10)
 }
@@ -68,8 +68,8 @@ main {
 
 .content {
     display: flex;
-    width: 1922px;
-    height: 620px;
+    padding-left: 240px;
+   
     border-radius: 8px;
     margin-top: 10px;
     margin-bottom: 30px;
@@ -110,7 +110,7 @@ main {
     height: 420px;
     padding-right: 400px;
     padding-top: 100px;
-    padding-bottom: 100px;
+    
 }
 
 .content-info {
@@ -161,10 +161,11 @@ main {
 
     background: #FFF;
     width: 1920px;
-    height: 4867px;
+    
     text-align: center;
     margin-top: 30px;
     padding-top: 30px;
+    margin-bottom: 30px;
    
 }
 
@@ -185,5 +186,12 @@ main {
     font-weight: 400;
    
     
+}
+form{
+    height: 55px;
+    width: 600px;
+    background-color: aqua;
+    text-align: center;
+    background-image: url("");
 }
 
