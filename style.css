@@ -323,3 +323,39 @@ span {
     line-height: 35px;
     text-decoration-line: underline;
 }
+
+
+.about{
+    display: flex;
+    justify-content: space-around;
+    width: 1440px;
+    height: 440px;
+    border: 5px solid red;
+    justify-content: center;
+    margin-left: 240px;
+}
+
+.about-info{
+    color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal; 
+}
+
+.about-description{
+    text-align: left;
+    font-size: 25px;
+    color: #272727;
+    width: 600px;
+    margin: 0px
+    padding: 0px;
+}
+
+.about-image{
+    width: 600px;
+    justify-content: center;
+    padding: 20px;
+}
